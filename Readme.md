@@ -64,25 +64,25 @@ You can use the AWS CLI with LocalStack using either of the following approaches
     ```
 #### Configuring an custom profile
 
-    - Add to `~/.aws/config`:
+- Add to `~/.aws/config`:
     ```ini
     [profile localstack]
     region = us-east-1
     output = json
     endpoint_url = http://localhost:4566
     ```
-    - Add to `~/.aws/credentials`:
-        ```ini
-        [localstack]
-        aws_access_key_id=test
-        aws_secret_access_key=test
-        ```
-    - Test Commands:
-        ```bash  
-        aws s3 ls --profile localstack
-        export AWS_PROFILE=localstack
-        aws s3 ls
-        ```
+- Add to `~/.aws/credentials`:
+    ```ini
+    [localstack]
+    aws_access_key_id=test
+    aws_secret_access_key=test
+    ```
+- Test Commands:
+    ```bash  
+    aws s3 ls --profile localstack
+    export AWS_PROFILE=localstack
+    aws s3 ls
+    ```
 
 ---
 LocalStack AWS CLI 
