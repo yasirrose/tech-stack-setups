@@ -8,7 +8,7 @@ This repository contains detailed instructions and configurations to set up Loca
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
   - [Using Docker Compose](#using-docker-compose)
-- [Configuration](#configuration)
+- [Configuration](#aws-cli-configuration)
 ---
 
 ## Prerequisites
@@ -44,14 +44,14 @@ You can use the AWS CLI with LocalStack using either of the following approaches
 - [AWS CLI](#aws-cli) 
 - [LocalStack AWS CLI](#localstack-aws-cli)
 
-## AWS CLI
+### AWS CLI
 
 - Installation
     ```bash
     pip install awscli
     ```
 
-### Configuring an endpoint URL
+#### Configuring an endpoint URL
 - Set environment variables:
   ```bash
   export AWS_ACCESS_KEY_ID=test
@@ -62,7 +62,7 @@ You can use the AWS CLI with LocalStack using either of the following approaches
     ```bash  
     aws --endpoint-url=http://localhost:4566 s3 ls
     ```
-- ### Configuring an custom profile
+#### Configuring an custom profile
 
     - Add to `~/.aws/config`:
     ```ini
