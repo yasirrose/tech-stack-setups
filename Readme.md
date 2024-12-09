@@ -22,7 +22,7 @@ Ensure the following software is installed:
 ## Installation
 
 ### Using Docker Compose
-1. [`docker-compose.yml`](#https://github.com/yasirrose/tech-stack-setups/blob/main/docker-compose.yml) file is created at the root of this directory to start localstack with docker compose:
+1. [`docker-compose.yml`](https://github.com/yasirrose/tech-stack-setups/blob/main/docker-compose.yml) file is created at the root of this directory to start localstack with docker compose:
 
 2. Go to the root folder of directory and start the container:
    ```bash
