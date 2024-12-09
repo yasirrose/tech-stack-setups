@@ -1,6 +1,6 @@
 # LocalStack Setup Guide
 
-This repository contains detailed instructions and configurations to set up LocalStack on a local machine. LocalStack provides a fully functional AWS cloud stack that can be run on your local machine for development and testing purposes.
+This folder contains detailed instructions and configurations to set up LocalStack on a local machine. LocalStack provides a fully functional AWS cloud stack that can be run on your local machine for development and testing purposes.
 
 ---
 
